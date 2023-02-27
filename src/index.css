@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&family=Montserrat:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Hanken+Grotesk:wght@500;700;800&family=Montserrat:wght@500;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+  font-family: "Montserrat", "Fraunces";
+}
+
+/* p {
+  @apply text-slate-200;
+} */
+
+
+
+.bg-btt {
+  background:  hsl(158, 36%, 37%);
+}
+
+.bg-all {
+  background:  hsl(30, 38%, 92%);
+}
+
+.text-cart {
+  color:  hsl(158, 36%, 37%);
+}
+
